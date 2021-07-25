@@ -114,7 +114,7 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 1000);
+			}, 100);
 		});
 
 	// Scrolly.
@@ -152,7 +152,7 @@
 			)
 				.appendTo($body)
 				.panel({
-					delay: 500,
+					delay: 200,
 					hideOnClick: true,
 					hideOnSwipe: true,
 					resetScroll: true,
